@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F3F8FE;
+}
+.navbar{
+    display: flex;
+    padding: 15px 30px 0 30px;
+    justify-content: space-between;
+}
+.navbar .logo{
+    width: 20vw;
+    display: flex;
+    padding-left: 20px;
+}
+.navbar .logo #slack{
+    width: 25px;
+    margin-right: 5px;
+}
+.navbar .logo h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-left: 30px;
+}
+.navbar form{
+    width: 20vw;
+}
+.navbar input{
+    margin-left: 5px;
+}
+.navbar form #logn{
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    background-color: #F3F8FE;
+    width: 70px;
+    height:25px ;
+}
+.navbar form #down{
+    color: white;
+    background-color:#248CFD ;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    outline: 0;
+    border: 0;
+}
+.main{
+    display: flex;
+}
+.left{
+    width: 20vw;
+}
+.left .turtburchak{
+    width: 50px;
+    height: 50px;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    background-color: blue;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.right{
+    width: 20vw;
+}
+.right .doira{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: chocolate;
+}
+.right .doira .oq{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #F3F8FE;
+    top:5px ;
+    left: 5px;
+}
+.center .h1 h1{
+    font-weight: bold;
+    font-size: 40px;
+    padding-right: 550px;
+    padding-bottom: 10px;
+}
+.text-button{
+    display: flex;
+    margin-bottom: 10px;
+}
+.text-button p{
+    padding:0 500px 0 90px;
+    line-height: 25px;
+}
+.text-button input{
+    height: 40px;
+    width: 350px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+.icons{
+    margin-left:90px;
+}
+.icons img{
+    margin-top: 5px;
+    width: 25px;
+}
+.img img{
+    position: relative;
+    left: 300px;
+    top: -200px;
+    width: 600px;
+}
+.right .doira{
+    position: relative;
+    top: 300px;
+    left: 70px;
+}
